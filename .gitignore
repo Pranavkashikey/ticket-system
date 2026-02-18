@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Django
+# =========================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+*.mo
+
+# If using custom settings
+local_settings.py
+.env
+.env.*
+*.env
+
+# =========================
+# Migrations (Optional - only if you don't want to push them)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# =========================
+# Django Debug Toolbar
+# =========================
+debug.log
+
+# =========================
+# Docker
+# =========================
+*.env
+docker-compose.override.yml
+docker-data/
+*.tar
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Coverage / Testing
+# =========================
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# =========================
+# Node (if using frontend inside same repo)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
